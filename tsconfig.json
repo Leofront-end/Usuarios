@@ -11,7 +11,7 @@
     "target": "ES6",
     "types": [],
     // For nodejs:
-    "lib": ["ES2023"],
+    "lib": ["ES2023","DOM"],
     // "types": ["node"],
     // and npm install -D @types/node
 
