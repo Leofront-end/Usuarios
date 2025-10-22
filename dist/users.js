@@ -7,15 +7,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { getUsers } from "./users.js";
-function printUsers() {
+export function getUsers() {
     return __awaiter(this, void 0, void 0, function* () {
-        const users = yield getUsers();
-        const element = document.createElement("div");
-        element.innerHTML = `<h2>Current users</h2> ${users.map((user) => `<div>${user.name}</div>`).join("")}`;
-        return element;
+        return Promise.resolve([{ name: "Javi" }, { name: "Núria" }, { name: "Isma" }]);
     });
 }
-printUsers()
-    .then((element) => document.body.appendChild(element))
-    .catch(() => console.error("Alguma coisa deu errado"));
