@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "name": "usuarios",
+  "version": "1.0.0",
+  "description": "Usuarios em Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
